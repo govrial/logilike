@@ -1,0 +1,22 @@
+@import "../mixins/breakpoint";
+
+:root {
+  // Container width
+  --min-w: 320px;
+  --max-w: 1512px;
+
+  // Colors
+  --text-color: #274e68;
+  --green-color: #5FBF77;
+  --hover-btn-color: #2e4d7e;
+  --brand-color: #385c94;
+  --secondary-color: #d7efff;
+  --primary-color: #b0dfff;
+  --warning-color: #f79009;
+  --success-color: #12b76a;
+  --error-color: #f04438;
+  --color-opacity-normal: rgb(215 239 255 / 10%);
+  --color-opacity-normal-selected: rgb(215 239 255 / 30%);
+  --color-opacity-normal-70: rgb(215 239 255 / 70%);
+  --color-opacity-normal-50: rgb(215 239 255 / 50%);
+}

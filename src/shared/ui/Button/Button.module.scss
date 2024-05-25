@@ -1,0 +1,27 @@
+.root {
+  cursor: pointer;
+  width: 100%;
+  transition: .4s all ease-in-out;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: transparent;
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+
+  &.active {
+    background-color: var(--green-color);
+    color: white;
+  }
+
+  &:hover {
+    background-color: var(--green-color);
+    color: white;
+  }
+
+  &:active {
+    background-color: var(--green-color);
+    opacity: 0.9;
+    color: white;
+  }
+}
